@@ -14,8 +14,6 @@ const App = new Vue({
       time: '',
     },
     userId: '',
-    channel: 'channel1', //GoEasy channel
-    appkey: '****************', // 替换成你的GoEasy应用appkey
   },
   methods: {
     randomString(length) {
@@ -113,7 +111,7 @@ const App = new Vue({
     this.player = this.$refs.video
 
     /*使用socket-io*/
-    this.socket = io('http://192.168.3.58:2233'); // 替换成你的websocket服务地址
+    this.socket = io('http://127.0.0.1:2233'); // 替换成你的websocket服务地址
     this.socket.on('video-control', (res) => {
       const result = JSON.parse(res);
       if (result.user !== this.userId) {
