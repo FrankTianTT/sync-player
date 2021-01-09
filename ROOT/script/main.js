@@ -14,6 +14,8 @@ const App = new Vue({
       time: '',
     },
     userId: '',
+    channel: 'channel1', //GoEasy channel
+    appkey: '****************', // 替换成你的GoEasy应用appkey
   },
   methods: {
     randomString(length) {
@@ -101,6 +103,8 @@ const App = new Vue({
     const currentPlayVideo = localStorage.getItem('currentPlayVideo')
 
     this.videoSrc = currentPlayVideo ? currentPlayVideo : ''
+
+    this.subSrc = this.videoSrc.substring(0, this.videoSrc.length - 4) + '.vtt'
 
     this.userId = this.randomString(10)
 
