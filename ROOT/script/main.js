@@ -33,7 +33,9 @@ const App = new Vue({
     },
     playVideoItem(src) {
       this.$refs.video.src = src
-      localStorage.setItem('currentPlayVideo', src)
+       subSrc = src.substring(0, src.length - 4) + '.vtt'
+	    this.$refs.sub.src = subSrc
+	localStorage.setItem('currentPlayVideo', src)
 
     },
     deleteVideoItem(index) {
@@ -115,7 +117,7 @@ const App = new Vue({
     this.player = this.$refs.video
 
     /*使用socket-io*/
-    this.socket = io('http://127.0.0.1:2233'); // 替换成你的websocket服务地址
+    this.socket = io('http://114.212.21.162:2233'); // 替换成你的websocket服务地址
     this.socket.on('video-control', (res) => {
       const result = JSON.parse(res);
       if (result.user !== this.userId) {
