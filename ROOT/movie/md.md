@@ -10,18 +10,14 @@
 
 有**中英**字幕
 
-| 名称       | 地址                    |
-| ---------- | ----------------------- |
-| 第一集     | movie/Upload.S01/01.mp4 |
-| 下面省略了 | movie/Upload.S01/02.mp4 |
-| 懂得都懂   | movie/Upload.S01/03.mp4 |
-|            | movie/Upload.S01/04.mp4 |
-|            | movie/Upload.S01/05.mp4 |
-|            | movie/Upload.S01/06.mp4 |
-|            | movie/Upload.S01/07.mp4 |
-|            | movie/Upload.S01/08.mp4 |
-|            | movie/Upload.S01/09.mp4 |
-|            | movie/Upload.S01/10.mp4 |
+1-10集，地址分别是`movie/Upload.S01/01.mp4`到`movie/Upload.S01/10.mp4`
+
+### 国剧
+
+#### 隐秘的角落
+
+1-12集，地址分别是`movie/The.Bad.Kids/01.mp4`到`movie/The.Bad.Kids/12.mp4`
+
 
 ### 电影 欧美
 
@@ -29,17 +25,33 @@
 
 有**中英**字幕
 
-| 名称 | 地址         |
-| ---- | ------------ |
-|      | The.Mist.mp4 |
+地址`movie/The.Mist.mp4`
+
+#### 小妇人Little.Women
+
+有**中英**字幕
+
+地址`movie/Little.Women.mp4`
+
+#### 心灵奇旅
+
+有**中英**字幕
+
+地址`movie/Soul.mp4`
 
 ### 电影 中国
 
 #### 夺冠
 
-| 名称 | 地址     |
-| ---- | -------- |
-|      | Leap.mp4 |
+地址`movie/Leap.mp4`
+
+#### 流浪地球
+
+地址`movie/The.Wandering.Earth.mp4`
+
+#### 叶问外传:张天志
+
+地址`movie/IP.Man.Side.Story.Cheung.Tin.Chi.mp4`
 
 ## 服务器上有mkv但是没有mp4的资源列表
 
@@ -53,6 +65,4 @@
 | 黑镜       | Black Mirror        | S01  |
 | 黑镜       | Black Mirror        | S02  |
 | 黑镜       | Black Mirror        | S03  |
-| 隐秘的角落 | The Bad Kids        |      |
-| 流浪地球   | The Wandering Earth |      |
 | 进击的巨人 |                     | 全   |
